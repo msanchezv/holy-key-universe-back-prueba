@@ -1,5 +1,6 @@
 language: node_js
-node_js: 12
+node_js:
+  - "12"
 branches:
   only:
     - develop
@@ -19,4 +20,3 @@ deploy:
   on:
     branch: master
   app: holy-key-universe-back
-
