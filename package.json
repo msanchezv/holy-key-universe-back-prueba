@@ -2,8 +2,9 @@
   "name": "holy-key-universe-back",
   "version": "1.0.0",
   "description": "Proyecto Fin de Master - Universo Santa Tecla",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/msanchezv/holy-key-universe-back#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "12.x"
   }
 }
