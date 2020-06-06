@@ -1,0 +1,22 @@
+language: node_js
+node_js: 12
+branches:
+  only:
+    - develop
+    - /^release-[0-999].[0-999]$/
+    - master
+notifications:
+  email:
+    recipients:
+      - masanchezve@gmail.com
+      - sonia.bejar017@gmail.com
+
+#Deploy https://holy-key-universe-back.herokuapp.com
+deploy:
+  provider: heroku
+  api_key:
+    secure: $HEROKU
+  on:
+    branch: master
+  app: holy-key-universe-back
+
