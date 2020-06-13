@@ -4,8 +4,7 @@
   "description": "Proyecto Fin de Master - Universo Santa Tecla",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"No test specified\" && exit 0"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
