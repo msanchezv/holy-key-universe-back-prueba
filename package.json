@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/msanchezv/holy-key-universe-back#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "engines": {
     "node": "12.x"
